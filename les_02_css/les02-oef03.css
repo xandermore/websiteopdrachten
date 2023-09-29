@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+}
+.containter {
+    margin: auto, 50px 0 0 0;
+    width: 500px;
+}
+.box {
+    margin: 10px;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background: blue;
+}
+.yellow {
+    background: yellow;
+}

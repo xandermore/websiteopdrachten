@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+    background: #eee;
+}
+h1 {
+    color: white;
+    background: maroon;
+    text-align: center;
+}
+h2 {
+    border-left: 0 0 0 6px darkslateblue;
+    border-left-style: solid;
+    background: lightsteelblue;
+    padding: 0 0 0 10px;
+}
+p {
+    color: gray;
+    margin: 0 0 25px 0 ;
+}
+#extra
+{
+    font-weight: bold;
+    color: black;
+}
+.lijntje
+{
+    font-weight: bold;
+    text-decoration-line: underline;
+}
