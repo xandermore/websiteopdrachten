@@ -1,0 +1,39 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#hr1 {
+    color: #00283c 1px;
+}
+
+h1 {
+margin: 0;
+padding: 0;
+font-size: 32px;
+color: #fa6432;
+}
+
+.edit1 {
+border: 5%;
+margin: 15px;
+float: left;
+opacity: 50%;
+}
+
+.edit1:hover {
+opacity: 100%;
+box-shadow: 5px 5px #fa6432;
+}
+
+.hl2:hover {
+color: #fa6432;
+}
+
+.hl2:visited {
+text-decoration: underline;
+}
+
+.height1 {
+height: 100px;
+}
+
