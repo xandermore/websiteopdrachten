@@ -1,0 +1,39 @@
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+}
+table
+{
+border: 3px;
+border-color:black ;
+border-style: solid;
+}
+td
+{
+    border: 1px;
+    border-color:black;
+    border-style: solid;
+    margin:4px;
+    text-align: center;
+}
+.red
+{
+    background-color: red;
+}
+.grey
+{
+    background-color: lightgray;
+}
+.green
+{
+    background-color: green;
+}
+.h23
+{
+    width: 200px;
+}
+.h45
+{
+width: 100px;
+}
