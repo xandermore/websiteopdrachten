@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 05 Oef 05</title>
+    <link rel="stylesheet" href="les05.oefening05.css">
+</head>
+<body>
+    <div>
+    <label for="voornaam" class="label">Voornaam:</label><br>
+    <input type="text" class="input" name="Voornaam" placeholder="Voornaam"><br>
+
+    <label for="familienaam" class="label">Familienaam:</label><br>
+    <input type="text" class="input" name="Familienaam" placeholder="Familienaam"><br>
+
+    <label for="familienaam" class="label">Adres:</label><br>
+    <input type="text" class="input" name="Familienaam" placeholder="Adres"><br>
+
+    <label for="provincie" class="label">Provincie:</label><br>
+    <select name="provincie">
+        <option value="antwerpen">Antwerpen</option>
+        <option selected value="limburg">Limburg</option>
+        <option value="oost-vlaanderen">Oost-Vlaanderen</option>
+        <option value="vlaams-brabant">Vlaams-Brabant</option>
+        <option value="west-vlaanderen">West-Vlaanderen</option>
+        <option value="henegouwen">Henegouwen</option>
+        <option value="luik">Luik</option>
+        <option value="luxemburg">Luxemburg</option>
+        <option value="namen">Namen</option>
+        <option value="waals-brabant">Waals-Brabant</option>
+    </select><br>
+
+    <fieldset>
+    <legend>Geslacht</legend>
+    <label for="man">Man
+        <input type="radio" id="man" name="geslacht" value="man">
+    <label for="vrouw">Vrouw
+    <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+        <label for="ander">Ander
+    <input type="radio" id="ander" name="geslacht" value="ander">
+    </fieldset><br>
+
+    <form action>
+        Foto <input type="file" id="myFile" name="filename">
+      </form><br>
+
+    <label for="checkbox">Ik ga akkoord met de algemene voorwaarden</label> <input id="checkbox" type="checkbox" /><br>
+
+    <label for="Registreren"></label><br>
+    <button type="submit" class="breedte" name="registreren" value="Registreren">Registreren</button>   
+
+    </div>
+</body>
+</html>

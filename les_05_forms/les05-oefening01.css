@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.label {
+    font-size: 18px;
+    font-style: bold;
+}
+
+.input:focus {
+    background-color: white;
+}
+
+.input {
+    width: 40vw;
+    background-color: lightblue;
+}
