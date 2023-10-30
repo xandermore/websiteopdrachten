@@ -1,0 +1,156 @@
+body {
+  background-color: #111;
+  font-family: 'Gabarito', sans-serif;
+  color: white;
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #35155B;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+  }
+
+  li a:hover {
+    background-color: #512B81;
+    text-decoration-line: underline;
+  }
+
+  .right {
+    float: right;
+    padding: 10px 16px 0px 0px;
+    font-style: bold;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 22px;
+  }
+
+  .sub_div {
+    padding: 14px 16px 10px 0px;
+    color: #8CABFF;
+    font-style: bold;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 22px;
+    position: fixed;
+    bottom: 0px;
+    width: 99%;
+    background-color: #35155B;
+    text-decoration-line: none;
+    text-align: right;
+  }
+
+  a:hover {
+    text-decoration-line: underline;
+  }
+
+  .default {
+    padding: 0px 0px 0px 16px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  h1 {
+    padding: 16px 0px 0px 16px;
+    font-style: bold;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: #35155B;
+    font-size: 48px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  h2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+  }
+
+  .lightblue {
+    color: #8CABFF;
+    text-decoration: none;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  figcaption {
+    color: gray;
+  }
+
+  .lightblue {
+    color: #8CABFF;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .right-align {
+    margin-left: auto;
+  }
+
+  .left-align {
+   align-content: flex-start;
+  }
+
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 1500px;
+    padding: 8px 0px 0px 16px;
+    border: 1px #35155B;
+    border-style: solid;
+  }
+  .box>* {
+    flex: 1px;
+  }
+
+  .caption {
+    color: #8CABFF;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  .Parent { 
+    display: flex; 
+    flex-direction: row; 
+  } 
+
+  .child1 { 
+    width: 15%; 
+    height: 30vh; 
+    text-align: left; 
+  } 
+
+  .child2 { 
+    width: 50%; 
+    height: 30vh; 
+  } 
+
+  .child3 {
+    width: 35%;
+    height: 30vh;
+    text-align: right;
+  }
