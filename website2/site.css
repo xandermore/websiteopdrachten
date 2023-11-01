@@ -1,0 +1,74 @@
+body {
+  background-color: #111;
+  font-family: 'Gabarito', sans-serif;
+  color: white;
+}
+
+.darkpurple {
+    background-color: #35155B;
+  }
+
+  .white {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  li a:hover {
+    background-color: #512B81;
+  }
+
+  h1 {
+    font-style: bold;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: #35155B;
+    font-size: 48px;
+  }
+
+  h2 {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-family: 'Pixelify Sans', sans-serif;
+  }
+
+  .lightblue {
+    color: #8CABFF;
+    text-decoration: none;
+  }
+
+  .underline {
+    text-decoration: underline;
+  }
+
+  .lightblue {
+    color: #8CABFF;
+  }
+
+
+  .box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 1500px;
+    padding: 8px 0px 0px 16px;
+    border: 1px #35155B;
+    border-style: solid;
+  }
+  .box>* {
+    flex: 1px;
+  }
+
+  .caption {
+    color: #8CABFF;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
