@@ -1,0 +1,33 @@
+* {
+  /* Alle elementen krijg 0 margin */
+  margin: 0px;
+  box-sizing: border-box;
+  width: 70%;
+}
+
+/* Responsive maken */
+@media screen and (max-width: 800px) {
+  .flexbox {
+    /* Stack flexbox in een kolom ipv in een rij op screens die kleiner zijn dan 800px */
+    flex-direction: column;
+  }
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  padding: 0px;
+}

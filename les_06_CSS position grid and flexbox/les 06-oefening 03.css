@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+    'header header header'
+    'body body body body'
+    'footer footer';
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .item1 { grid-area: header; grid-row: 1; grid-column: 1; background-color: cyan;}
+  .item2 { grid-area: header; grid-row: 1; grid-column: 2; background-color: purple;}
+  .item3 { grid-area: header; grid-row: 1; grid-column: 3; background-color: green;}
+  .item4 { grid-area: body; grid-row: 2; grid-column: 1; background-color: yellow;}
+  .item5 { grid-area: body; grid-row: 2; grid-column: 2; background-color: red;}
+  .item6 { grid-area: body; grid-row: 2; grid-column: 3; background-color: maroon;}
+  .item7 { grid-area: body; grid-row: 2; grid-column: 4; background-color: lightgreen;}
+  .item8 { grid-area: footer; grid-row: 3; grid-column: 1; background-color: blue;}
+  .item9 { grid-area: footer; grid-row: 3; grid-column: 2; background-color: darkkhaki;}
+
+  ul {
+    list-style-type: none;
+  }
+

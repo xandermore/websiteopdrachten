@@ -1,0 +1,33 @@
+body {
+    background-image: url("kompas.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Pacifico';
+}
+
+.noord {
+position: relative;
+text-align: center;
+}
+
+.oost {
+position: absolute;
+top: 50%;
+right: 1%;
+}
+
+.west {
+position: absolute;
+top: 50%;
+left: 1%
+}
+
+.zuid {
+position: absolute;
+bottom: 8px;
+left: 50%;
+}
+
