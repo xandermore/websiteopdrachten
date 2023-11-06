@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+  }
+  
+  .column-25 {
+    float: left;
+    width: 25%;
+    padding: 15px;
+  }
+  
+  .column-60 {
+    float: left;
+    width: 60%;
+    padding: 15px;
+  }
+  
+  .column-40 {
+    float: left;
+    width: 40%;
+    padding: 15px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column-25 {
+      width: 100%;
+    }
+    .column-60 {
+      width: 100%;
+    }
+    .column-40 {
+      width: 100%;
+    }
+  }

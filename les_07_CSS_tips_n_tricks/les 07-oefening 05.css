@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: black;
+  }
+  
+  .nav {
+    line-height: 30px;
+    height: 500px;
+    width: 30%;
+    padding: 5px;
+    float: left;
+    background-color: lightgray;
+  }
+  
+  .nav .item {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  
+  .content {
+    width: 70%;
+    padding: 5px;
+    overflow: auto;
+  }
+  
+  .footer {
+    clear: both;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    background-color: black;
+  }
+  

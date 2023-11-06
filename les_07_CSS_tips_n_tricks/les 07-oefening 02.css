@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+  }
+  
+  #header1 {
+    height: 300px;
+    width: 50%;
+    padding: 5px;
+    background-color: white;
+  }
+  
+  #header2 {
+    height: 200px;
+    width: 75%;
+    padding: 5px;
+    background-color: red;
+  }
+  
+  #header3 {
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    background-color: yellow;
+  }
+  
